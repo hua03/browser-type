@@ -1,0 +1,19 @@
+{
+  "name": "@huahao/browser-type",
+  "description": "Judging the types of browsers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hua03/browser-type.git"
+  },
+  "author": "hua03 <295506287@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hua03/browser-type/issues"
+  },
+  "homepage": "https://github.com/hua03/browser-type#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
