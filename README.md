@@ -5,13 +5,13 @@ Judging the types of browsers
 ## Install
 
 ```
-$ npm install --save @hua03/browser-type
+$ npm install --save @huahao/browser-type
 ```
 
 ## Usage
 
 ```
-import { browserType, browserVersion } from '@hua03/browser-type'
+import { browserType, browserVersion } from '@huahao/browser-type'
 
 console.log(browserType)    // Chrome
 console.log(browserVersion) // 56
