@@ -9,7 +9,7 @@ function isIE11(ua) {
 }
 
 function isIE(ua) {
-  return ua.match(/msie/gi)
+  return ua.match(/msie/i)
 }
 
 function isFireFox(ua) {
@@ -27,9 +27,9 @@ function isSafari(ua) {
 if (isIE(ua) || isIE11(ua)) {
   browser.type = 'IE'
   if (isIE11(ua)) {
-    browser.version = ua.match(/rv:(\d*)/i)[1]
+    browser.version = ua.match(/rv:(\d+)/i)[1]
   } else {
-    browser.version = ua.match(/msie\s*(\d*)/)[1]
+    browser.version = ua.match(/msie\s*(\d+)/i)[1]
   }
 } else if (isFireFox(ua)) {
   browser.type = 'Firefox'
