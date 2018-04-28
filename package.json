@@ -1,7 +1,7 @@
 {
   "name": "@huahao/browser-type",
   "description": "Judging the types of browsers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "repository": {
     "type": "git",

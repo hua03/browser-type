@@ -4,16 +4,16 @@ Judging the types of browsers
 
 ## Install
 
-```
+```shell
 $ npm install --save @huahao/browser-type
 ```
 
 ## Usage
 
-```
+```js
 import { browserType, browserVersion } from '@huahao/browser-type'
 
-console.log(browserType)    // Chrome
+console.log(browserType) // Chrome
 console.log(browserVersion) // 56
 ```
 
